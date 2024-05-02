@@ -1,0 +1,289 @@
+{
+    "courses": [
+        {
+            "credits": 3,
+            "name": "CPSC210",
+            "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+            ],
+            "startTime": "15:00",
+            "endTime": "11:00"
+        },
+        {
+            "credits": 3,
+            "name": "BIOL111",
+            "days": [
+                "Tuesday",
+                "Thursday"
+            ],
+            "startTime": "12:30",
+            "endTime": "14:00"
+        },
+        {
+            "credits": 3,
+            "name": "LING100",
+            "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+            ],
+            "startTime": "09:00",
+            "endTime": "10:00"
+        },
+        {
+            "credits": 3,
+            "name": "DSCI100",
+            "days": [
+                "Tuesday",
+                "Thursday"
+            ],
+            "startTime": "16:00",
+            "endTime": "17:30"
+        },
+        {
+            "credits": 3,
+            "name": "PHIL220",
+            "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+            ],
+            "startTime": "10:00",
+            "endTime": "11:00"
+        },
+        {
+            "credits": 4,
+            "name": "CHEM111",
+            "days": [
+                "Monday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+            ],
+            "startTime": "12:00",
+            "endTime": "13:00"
+        },
+        {
+            "credits": 4,
+            "name": "CPSC121",
+            "days": [
+                "Tuesday",
+                "Thursday"
+            ],
+            "startTime": "17:00",
+            "endTime": "18:30"
+        },
+        {
+            "credits": 4,
+            "name": "MATH200",
+            "days": [
+                "Monday",
+                "Wednesday"
+            ],
+            "startTime": "16:00",
+            "endTime": "17:00"
+        },
+        {
+            "credits": 3,
+            "name": "MATH221",
+            "days": ["Monday"],
+            "startTime": "09:00",
+            "endTime": "10:00"
+        },
+        {
+            "credits": 3,
+            "name": "BIOL112",
+            "days": [
+                "Monday",
+                "Thursday"
+            ],
+            "startTime": "08:00",
+            "endTime": "09:00"
+        }
+    ],
+    "courseLists": [
+        {
+            "timeAndNameConflicts": false,
+            "courses": [
+                {
+                    "credits": 4,
+                    "name": "CPSC210",
+                    "days": [
+                        "Monday",
+                        "Wednesday",
+                        "Friday"
+                    ],
+                    "startTime": "10:00",
+                    "endTime": "11:00"
+                },
+                {
+                    "credits": 3,
+                    "name": "BIOL111",
+                    "days": [
+                        "Tuesday",
+                        "Thursday"
+                    ],
+                    "startTime": "12:30",
+                    "endTime": "14:00"
+                },
+                {
+                    "credits": 3,
+                    "name": "LING100",
+                    "days": [
+                        "Monday",
+                        "Wednesday"
+                    ],
+                    "startTime": "09:00",
+                    "endTime": "10:00"
+                },
+                {
+                    "credits": 4,
+                    "name": "CPSC121",
+                    "days": [
+                        "Tuesday",
+                        "Thursday"
+                    ],
+                    "startTime": "17:00",
+                    "endTime": "18:30"
+                },
+                {
+                    "credits": 4,
+                    "name": "MATH200",
+                    "days": [
+                        "Monday",
+                        "Wednesday"
+                    ],
+                    "startTime": "16:00",
+                    "endTime": "17:00"
+                },
+                {
+                    "credits": 3,
+                    "name": "BIOL112",
+                    "days": [
+                        "Monday",
+                        "Thursday"
+                    ],
+                    "startTime": "08:00",
+                    "endTime": "09:00"
+                }
+            ],
+            "name": "demo"
+        },
+        {
+            "timeAndNameConflicts": true,
+            "courses": [
+                {
+                    "credits": 4,
+                    "name": "CPSC210",
+                    "days": [
+                        "Monday",
+                        "Wednesday",
+                        "Friday"
+                    ],
+                    "startTime": "10:00",
+                    "endTime": "11:00"
+                },
+                {
+                    "credits": 3,
+                    "name": "LING100",
+                    "days": [
+                        "Monday",
+                        "Wednesday"
+                    ],
+                    "startTime": "09:00",
+                    "endTime": "10:00"
+                },
+                {
+                    "credits": 3,
+                    "name": "DSCI100",
+                    "days": [
+                        "Tuesday",
+                        "Thursday"
+                    ],
+                    "startTime": "16:00",
+                    "endTime": "17:30"
+                },
+                {
+                    "credits": 4,
+                    "name": "CHEM111",
+                    "days": [
+                        "Monday",
+                        "Wednesday",
+                        "Thursday",
+                        "Friday"
+                    ],
+                    "startTime": "12:00",
+                    "endTime": "13:00"
+                }
+            ],
+            "name": "demoWithTimeConflict"
+        },
+        {
+            "timeAndNameConflicts": true,
+            "courses": [{
+                "credits": 4,
+                "name": "CPSC210",
+                "days": [
+                    "Monday",
+                    "Wednesday",
+                    "Friday"
+                ],
+                "startTime": "10:00",
+                "endTime": "11:00"
+            }],
+            "name": "addNewCourseListWithTimeConflictTest"
+        },
+        {
+            "timeAndNameConflicts": false,
+            "courses": [
+                {
+                    "credits": 4,
+                    "name": "CPSC210",
+                    "days": [
+                        "Monday",
+                        "Wednesday",
+                        "Friday"
+                    ],
+                    "startTime": "10:00",
+                    "endTime": "11:00"
+                },
+                {
+                    "credits": 3,
+                    "name": "PHIL220",
+                    "days": [
+                        "Monday",
+                        "Wednesday",
+                        "Friday"
+                    ],
+                    "startTime": "10:00",
+                    "endTime": "11:00"
+                }
+            ],
+            "name": "addNewCourseListWithoutTimeConflictTest"
+        },
+        {
+            "timeAndNameConflicts": true,
+            "courses": [{
+                "credits": 4,
+                "name": "CHEM111",
+                "days": [
+                    "Monday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                ],
+                "startTime": "12:00",
+                "endTime": "13:00"
+            }],
+            "name": "testingFunctionalityAfterIBrokeEverything"
+        },
+        {
+            "timeAndNameConflicts": true,
+            "courses": [],
+            "name": "forVideoForCPSC210"
+        }
+    ],
+    "name": "My Course Home"
+}

@@ -1,0 +1,40 @@
+{
+    "courses": [
+        {
+            "credits": 3,
+            "name": "BIOL111",
+            "days": [
+                "Monday",
+                "Friday"
+            ],
+            "startTime": "12:30",
+            "endTime": "14:00"
+        },
+        {
+            "credits": 4,
+            "name": "CPSC210",
+            "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+            ],
+            "startTime": "10:00",
+            "endTime": "11:00"
+        }
+    ],
+    "courseLists": [{
+        "timeAndNameConflicts": false,
+        "courses": [{
+            "credits": 3,
+            "name": "BIOL111",
+            "days": [
+                "Monday",
+                "Friday"
+            ],
+            "startTime": "12:30",
+            "endTime": "14:00"
+        }],
+        "name": "test"
+    }],
+    "name": "My course home"
+}
